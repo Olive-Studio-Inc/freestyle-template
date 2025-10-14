@@ -1,0 +1,11 @@
+.nvm/
+.ssh/
+.local/
+.config/
+.cache/
+node_modules/
+.bash_interactive
+.bash_logout
+.bashrc
+.profile
+.sudo_as_admin_successful
