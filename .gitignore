@@ -1,11 +1,16 @@
+# System and environment files
+.cache/
+.config/
+.local/
 .nvm/
 .ssh/
-.local/
-.config/
-.cache/
-node_modules/
 .bash_interactive
 .bash_logout
 .bashrc
-.profile
-.sudo_as_admin_successful
+# Dependencies
+**/node_modules/
+# Build outputs
+server/dist/
+# Lock files
+server/pnpm-lock.yaml
+vite/pnpm-lock.yaml
